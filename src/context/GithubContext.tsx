@@ -31,7 +31,7 @@ export const GithubProvider: React.FC<{ children: React.ReactNode }> = ({ childr
 
   useEffect(() => {
     fetchRepos();
-  }, []); // Fetch repos on component mount
+  }, []); 
 
   return (
     <GithubContext.Provider value={{ repos, fetchRepos }}>

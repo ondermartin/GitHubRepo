@@ -1,4 +1,4 @@
-// Example: RepoList.tsx
+
 import React, { useContext, useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { GithubContext } from '../context/GithubContext';
