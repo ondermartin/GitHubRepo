@@ -22,7 +22,7 @@ export const GithubProvider: React.FC<{ children: React.ReactNode }> = ({ childr
 
   const fetchRepos = async () => {
     try {
-      const response = await axios.get<Repo[]>('https://api.github.com/users/ondermartin/repos');
+      const response = await axios.get<Repo[]>('https://api.github.com/users/tugba.martin01@gmail.com/repos');
       setRepos(response.data);
     } catch (error) {
       console.error('Error fetching repositories:', error);
